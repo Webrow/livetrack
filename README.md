@@ -72,9 +72,10 @@ bash database/influxdb.sh
 # Edit setting, set InfluxDB username and password
 vi src/settings.php
 
+# Is already set to true
 # Edit InfluxDB configuration
 # Enable authentication by setting the 'auth-enabled' option to 'true'
-sudo vi /etc/influxdb/influxdb.conf
+# sudo vi /etc/influxdb/influxdb.conf
 
 # Restart InfluxDB
 sudo systemctl restart influxdb
